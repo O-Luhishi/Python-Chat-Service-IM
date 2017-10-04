@@ -1,15 +1,15 @@
 # Python-Chat-Service-IM
 
-Written by By Oluhishi [http://zonosnetworks.com]
+Written by Oluhishi [http://zonosnetworks.com]
 
 ## Overview
 
 Python chatting application. Allows users to connect to each other through their IP Addresses and be able to send messages from one device to another.
 
 ## Requirements
-  - Python 3.X
+  - Python 3.x
   - IP Address
-  - Adminstrator privileges
+  - Administrator privileges
   
 ### Basic Chat Client
 
@@ -17,7 +17,7 @@ This will try to connect to the host IP address given. Once connected, it will b
 
 ### Basic Chat Server
 
-Run this to look for any incomming connections to the host machine. Like the Chat Client, once connected you are able to send messages between devices.
+Run this to look for any incoming connections to the host machine. Like the Chat Client, once connected you are able to send messages between devices.
 
 ### Full Client Server Chat
 
@@ -31,4 +31,3 @@ To start it, run:
 Select whether you want to connect to a host or awaiting a connection from the menu
 
 Enter port number which you will try connect to
-
