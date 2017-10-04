@@ -1,11 +1,34 @@
 # Python-Chat-Service-IM
 
-This contains 3 Files:
+Written by By Oluhishi [http://zonosnetworks.com]
 
-> Basic Chat Client - tries to connect to the host IP address set. This has basic functions and can send messages accross the network.
+## Overview
 
-> Basic Chat Server - Looks for any incomming connections to the local host. Is also able to send and recieve messages.
+Python chatting application. Allows users to connect to each other through their IP Addresses and be able to send messages from one device to another.
 
-> Full Client Server Chat - Mix of both Client & Server. Has the option to connect or await a connection from and to a target host.
+## Requirements
+  - Python 3.X
+  - IP Address
+  - Adminstrator privileges
+  
+### Basic Chat Client
 
-Still work in progress - Only one message can be sent at a time until the other machine sends a reply.
+This will try to connect to the host IP address given. Once connected, it will be able to send messages across.
+
+### Basic Chat Server
+
+Run this to look for any incomming connections to the host machine. Like the Chat Client, once connected you are able to send messages between devices.
+
+### Full Client Server Chat
+
+Mix of both Client & Server. Has the option to connect or await a connection from and to a target host.
+
+## Usage
+
+To start it, run: 
+``` $ Sudo Python3 Full-CliSvr-Chat.py ```
+
+Select whether you want to connect to a host or awaiting a connection from the menu
+
+Enter port number which you will try connect to
+
